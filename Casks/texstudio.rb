@@ -10,5 +10,5 @@ cask "texstudio" do
 
   depends_on macos: :ventura
 
-  app "texstudio.app"
+  app "texstudio-#{version}-osx-m1", target: "TeXstudio.app"
 end
