@@ -8,7 +8,7 @@ cask "texstudio" do
   desc "Integrated writing environment for creating LaTeX documents"
   homepage "https://github.com/texstudio-org/texstudio"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "texstudio.app"
 end
